@@ -1,0 +1,121 @@
+body
+{
+  background-image: url(../imagenes/fondo_general.jpg);
+}
+
+.formato_Datos_Personales
+{
+    background-color: lightgrey;
+    border-top: solid lightgrey 8px;
+    border-right: solid lightgrey 8px;
+    border-bottom: solid black;
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+}
+
+
+
+.formato_campo
+{
+    color:black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.formato_dato
+{
+    color:black;
+    font-style: italic;
+}
+
+
+.formato_foto_perfil
+{
+    padding: 5px ;
+    border: 1px solid;
+    float: right;
+    height: 160px;
+    width: 160px;
+    
+}
+
+
+
+.formato_titulo_sección
+{
+  color:grey;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+  
+  }
+  
+  nav {
+    float: center;
+  }
+  
+
+  /* Doy formato al del menu */
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+  }
+  
+
+  /* Doy formato a los links */
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Doy formato y efecto rayita superior a los links */
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+.fondo_seccion
+{
+  background-image: url(../imagenes/fondo.png);
+  background-repeat: no-repeat;
+  border-left:  250px solid;
+  
+
+}
+
+#campo_lista
+{
+  font-weight: bold;
+  
+}
