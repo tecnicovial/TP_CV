@@ -11,6 +11,7 @@ body
     border-bottom: solid black;
     font-family: 'Kanit', sans-serif;
     font-size:20px;
+    padding-left: 25px;;
 }
 
 
@@ -46,7 +47,7 @@ body
 {
   color:grey;
   font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -107,15 +108,28 @@ body
 
 .fondo_seccion
 {
-  background-image: url(../imagenes/fondo.png);
+  background-image: url(../imagenes/fondo1.png);
+  background-size: 100% 300px;
   background-repeat: no-repeat;
-  border-left:  250px solid;
+  padding-bottom: 50px;
+  
   
 
+ 
 }
+
 
 #campo_lista
 {
   font-weight: bold;
-  
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 380px;
+ 
+}
+
+#lista
+{
+  list-style-type: none;
 }
