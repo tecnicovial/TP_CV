@@ -112,10 +112,6 @@ body
   background-size: 100% 300px;
   background-repeat: no-repeat;
   padding-bottom: 50px;
-  
-  
-
- 
 }
 
 
@@ -132,4 +128,14 @@ body
 #lista
 {
   list-style-type: none;
+}
+
+.botones
+{
+  font-weight: bold;
+  padding: 30px;
+  font-size: 20px;
+  border: transparent 0px;
+  background-color: burlywood;
+  border-radius: 10px;
 }
